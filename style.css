@@ -1,0 +1,152 @@
+/* CSS */
+
+
+
+.container {
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    overflow: auto;
+    }
+
+    .Heading {
+      Padding-left: 50px;
+      font-size: 20px;
+    }
+
+
+    .Objective {
+    Padding-left: 150px;
+    font-size: 40px;
+    }
+
+    header {
+    background-color: #e6f5f2;
+    }
+
+
+    input[type="range"] {
+      display: block;
+      appearance: none;
+      background-color: #bdc3c7;
+      width: 300px;
+      height: 20px;
+
+      border-radius: 5px;
+      margin: 0 auto;
+      outline: 0;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      background-color: #dbb3af;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+      appearance: none ;
+    }​
+      input[type="range"]::-webkit-slider-thumb:hover {
+        background-color: white;
+        border: 2px solid #e74c3c;
+        opacity: 1;
+      }
+      input[type="range"]::-webkit-slider-thumb:active {
+        transform: scale(1.6);
+      }
+
+
+html, body, #map
+{
+  
+  width: 75%;
+  height: 92%;
+  margin: 100;
+  padding-left: 150px;
+  background-color: #b9b8b6;
+}
+select {
+  position: absolute;
+  left:7px;
+  top:510px;
+}
+
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  padding-left: 700px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  width: 96%;
+  padding: 8px .8em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+
+}
+
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none ;
+}
+
+.towns, .towns svg {
+  position: absolute;
+}
+
+.towns svg {
+  width: 60px;
+  height: 20px;
+  padding-right: 100px;
+  font: 7px sans-serif;
+}
+
+.towns circle {
+  stroke: white;
+  stroke-width: 1.5px;
+}
+
+.tooltip {
+  position: absolute;
+  line-height: .7;
+  font-weight: bold;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-weight: bold;
+  font: 11.5px sans-serif;
+  border-radius: 2px;
+  pointer-events: none;
+}

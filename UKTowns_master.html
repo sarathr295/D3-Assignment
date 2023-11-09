@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <title>Towns in UK</title>
+  <head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQv69OHJMk3LrAKwsp3K4t8-RY-0Id2sY"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+</head>
+
+
+<body>
+  <div class = "container">
+  <header class = "cf">
+    <div class= "Heading"><b> AC50002 - Programming languages for Data Engineering - D3 assignment - Submitted by Sarath Raman Nair(2551542)</b> </div>
+    <div class= "Objective"><em>Population in different towns in UK</em></div>
+     </br>
+  </header>
+  </div>
+
+  <div id = "slider">
+    <label for="ncount"
+           style="background-color: #3f5e73; color: #fff; padding: 8px; border-radius: 5px; box-shadow: 0 4px 8px rgba(132, 235, 163, 0.1); padding-left: 220px; padding-right: 210px;">
+           Move the slider to change number of towns displayed= <span id="ncount-value">...</span>
+    </label></div><br>
+
+    <input type="range" min="1" max="300" step="1" value="50" id="ncount"> </div><br>
+
+    <div id ="button">
+    <button  type="button" class="button-7">Click here to view different towns at random</button></div>
+    <br>
+
+<div id="map"></div>
+  <script type="text/javascript" src = "UKTowns_master.js">  </script>
+</body>
+</html>
